@@ -1,9 +1,9 @@
 source "http://rubygems.org"
 # Add dependencies required to use your gem here.
-  gem 'rails'
-  gem 'comfortable_mexican_sofa', '1.8.1'
-  gem 'devise', '>= 1.5.4'
-  gem 'cancan', '>=1.6.9'
+  gem 'rails', '4.0.0'
+  gem 'comfortable_mexican_sofa', '~> 1.10.0'
+  gem 'devise', '3.1.0'
+  gem 'cancan'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
