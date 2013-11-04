@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "cms-fortress"
+  s.name = 'cms-fortress'
   s.version = '0.3.0'
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
-    ".rvmrc",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -126,8 +125,8 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<simplecov>, [">= 0"])
     else
       s.add_dependency(%q<rails>, [">= 0"])
-      s.add_dependency(%q<comfortable_mexican_sofa>, ["= 1.8.1"])
-      s.add_dependency(%q<devise>, [">= 1.5.4"])
+      s.add_dependency(%q<comfortable_mexican_sofa>, ['>= 1.10.0'])
+      s.add_dependency(%q<devise>, ['>= 3.1.0'])
       s.add_dependency(%q<cancan>, [">= 1.6.9"])
       s.add_dependency(%q<rdoc>, [">= 0"])
       s.add_dependency(%q<bundler>, [">= 0"])
@@ -136,8 +135,8 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rails>, [">= 0"])
-    s.add_dependency(%q<comfortable_mexican_sofa>, ["= 1.8.1"])
-    s.add_dependency(%q<devise>, [">= 1.5.4"])
+    s.add_dependency(%q<comfortable_mexican_sofa>, ['>= 1.10.0'])
+    s.add_dependency(%q<devise>, ['>= 3.1.0'])
     s.add_dependency(%q<cancan>, [">= 1.6.9"])
     s.add_dependency(%q<rdoc>, [">= 0"])
     s.add_dependency(%q<bundler>, [">= 0"])
